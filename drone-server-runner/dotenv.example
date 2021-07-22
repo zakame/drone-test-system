@@ -1,0 +1,8 @@
+DRONE_GITEA_SERVER=http://<gitea-server>:3000
+DRONE_GITEA_CLIENT_ID=<client-id>
+DRONE_GITEA_CLIENT_SECRET=<client-secret>
+DRONE_SERVER_PROTO=http
+DRONE_USER_CREATE=username:<your-username>,admin:true
+DRONE_RPC_PROTO=http
+DRONE_RUNNER_CAPACITY=2
+DRONE_RUNNER_NAME=drone-runner
