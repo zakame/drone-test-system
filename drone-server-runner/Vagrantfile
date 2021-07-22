@@ -88,6 +88,7 @@ Vagrant.configure("2") do |config|
     $(lsb_release -cs) stable"
   apt-get update
   apt-get install -y --no-install-recommends docker-ce
+  adduser vagrant docker
 
   cp /vagrant/run.sh /usr/local/bin/docker-compose
   chmod +x /usr/local/bin/docker-compose
